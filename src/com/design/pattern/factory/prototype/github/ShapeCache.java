@@ -1,4 +1,4 @@
-package com.design.pattern.factory.prototype;
+package com.design.pattern.factory.prototype.github;
 
 import java.util.Hashtable;
 

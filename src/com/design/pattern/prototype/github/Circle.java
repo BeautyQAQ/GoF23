@@ -1,4 +1,4 @@
-package com.design.pattern.factory.prototype.github;
+package com.design.pattern.prototype.github;
 
 /**
  * 圆形

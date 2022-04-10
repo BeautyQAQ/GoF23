@@ -1,4 +1,4 @@
-package com.design.pattern.factory.builder.github;
+package com.design.pattern.builder.github;
 
 /**
  * 汉堡建设者

@@ -1,4 +1,4 @@
-package com.design.pattern.factory.builder.github;
+package com.design.pattern.builder.github;
 
 public class Main {
     public static void main(String[] args) {

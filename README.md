@@ -50,11 +50,13 @@
 什么是伸缩构造函数反模式？ 经常见到如下的构造函数
 
 
-```
-public Constructor(int size, String str, boolean isFine){
-    this.size = size;
-    this.str = str;
-    this.isFine = isFine;
+```java 
+public class Constructor{
+    public Constructor(int size, String str, boolean isFine){
+        this.size = size;
+        this.str = str;
+        this.isFine = isFine;
+    }
 }
 ```
 
@@ -105,4 +107,8 @@ public Constructor(int size, String str, boolean isFine){
 ### 组合模式（Composite）
 
 组合模式允许客户以统一的方式处理单个对象。  
+
+### 装饰模式（Decorator）
+
+装饰器模式允许您通过将对象包装在装饰器类的对象中来动态更改对象在运行时的行为。  
 

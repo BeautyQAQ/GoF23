@@ -4,24 +4,24 @@ package com.design.pattern.builder.github;
  * 汉堡
  */
 public class Burger {
-    protected int size;
+    private int size;
     /**
      * 是否需要芝士
      */
-    protected boolean cheese = false;
+    private boolean cheese = false;
     /**
      * 是否需要意大利辣香肠
      */
-    protected boolean pepperoni = false;
+    private boolean pepperoni = false;
     /**
      * 是否需要生菜
      */
-    protected boolean lettuce = false;
+    private boolean lettuce = false;
     
     /**
      * 是否需要番茄
      */
-    protected boolean tomato = false;
+    private boolean tomato = false;
 
     public Burger(BurgerBuilder builder){
         this.size = builder.size;

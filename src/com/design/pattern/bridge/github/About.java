@@ -5,7 +5,7 @@ package com.design.pattern.bridge.github;
  */
 public class About implements WebPage{
 
-    protected  Theme theme;
+    private  Theme theme;
 
     public About(Theme theme){
         this.theme = theme;

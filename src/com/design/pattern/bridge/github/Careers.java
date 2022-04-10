@@ -5,7 +5,7 @@ package com.design.pattern.bridge.github;
  */
 public class Careers implements WebPage {
 
-    protected Theme theme;
+    private Theme theme;
 
     public Careers(Theme theme){
         this.theme = theme;

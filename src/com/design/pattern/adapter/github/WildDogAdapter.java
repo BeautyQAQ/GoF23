@@ -5,7 +5,7 @@ package com.design.pattern.adapter.github;
  */
 public class WildDogAdapter implements Lion {
 
-    protected WildDog dog;
+    private WildDog dog;
 
     public WildDogAdapter(WildDog dog){
         this.dog = dog;

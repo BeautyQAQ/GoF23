@@ -102,3 +102,7 @@ public Constructor(int size, String str, boolean isFine){
 
 > 桥接模式是软件工程中使用的设计模式，旨在“将抽象与其实现分离，以便两者可以独立变化”
 
+### 组合模式（Composite）
+
+组合模式允许客户以统一的方式处理单个对象。  
+

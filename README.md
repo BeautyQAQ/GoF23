@@ -1,6 +1,20 @@
 # 23种设计模式
 
+## 设计模式的类型
+
+ - 创建型
+ - 结构型
+ - 行为型
+
 ## 创建型
+
+ - 简单工厂模式（Simple Factory）
+ - 工厂方法模式（Factory Method）
+ - 抽象工厂模式（Abstract Factory）
+ - 构建器模式（Builder）
+ - 原型模式（Prototype）
+ - 单例模式（Singleton）
+
 ### 简单工厂模式（Simple Factory）
 
 简单工厂只是为客户端生成一个实例，而不会向客户端公开任何实例化逻辑。  
@@ -37,8 +51,7 @@
 
 
 ```java
-
-public Object(int size, String str, boolean isFine){
+public Constructor(int size, String str, boolean isFine){
     this.size = size;
     this.str = str;
     this.isFine = isFine;
@@ -60,3 +73,24 @@ public Object(int size, String str, boolean isFine){
 什么时候使用：
 
 > 当需要一个与现有对象类似的对象时，或者与克隆相比，创建的成本会更高。
+
+### 单例模式（Singleton）
+
+确保只有特定类的一个对象被创建。  
+
+单例模式实际上被认为是反模式，应该避免过度使用它。它不一定是坏的，可能有一些有效的使用场景，但应谨慎使用，因为它在您的应用程序中引入了一个全局状态，并且在一个地方更改它可能会影响其他地方，并且它可能变得非常难以调试。关于它们的另一个坏处是它使你的代码紧密耦合加上 mock(一种测试方法)单例可能很困难。
+
+## 结构型
+
+- 适配器模式（Adapter）
+- 桥接模式（Bridge）
+- 组合模式（Composite）
+- 装饰模式（Decorator）
+- 门面模式（Facade）
+- 享元模式（Flyweight）
+- 代理模式（Proxy）
+
+### 适配器模式（Adapter）
+
+适配器模式允许您在适配器中包装其他不兼容的对象，使其与另一个类兼容。(翻译，电源适配器，读卡器)
+
